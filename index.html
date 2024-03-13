@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive ABCs of CSS</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+<div class="container">
+    <h1>Welcome to the Interactive ABCs of CSS Technology Learning Website</h1>
+    <p>Click on the letters below to reveal and learn the CSS technology features of the corresponding letters</p>
+
+    <!-- Aspect Ratio -->
+    <div class="card" id="cardA">
+        <button onclick="toggleImage('imgA')">A</button>
+        <img id="imgA" src="./imgs/AforAspect.png" alt="Image for Aspect Ratio" style="display:none;">
+        <button onclick="toggleImage('imgA')">Hide Result</button>
+    </div>
+
+    <!-- Border -->
+    <div class="card" id="cardB">
+        <button onclick="toggleImage('imgB')">B</button>
+        <img id="imgB" src="./imgs/BforBorder.png" alt="Image for Border" style="display:none;">
+        <button onclick="toggleImage('imgB')">Hide Result</button>
+     </div>
+
+     <!-- Colors -->
+     <div class="card" id ="cardC">
+         <button onclick = "toggleImage('imgC')">C</button>
+         <img id="imgC" src="./imgs/CforColors.png" alt="Image for Colors" style="display:none;">
+         <button onclick = "toggleImage('imgC')">Hide Result</button>
+      </div> 
+  </div>
+  <script src = "./JS/script.js"></script> 
+</body>
+</html>
+

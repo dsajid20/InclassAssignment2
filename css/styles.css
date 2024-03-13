@@ -1,0 +1,40 @@
+/* Add your styles here */
+.container {
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+    border: 2px solid orange; /* Add an orange border */
+ }
+ .container h1{
+    border: 2px solid orange;
+ }
+ .container p{
+    border: 2px solid orange;
+ }
+ 
+ .card {
+    border: 2px solid orange; /* Add an orange border */
+    margin: 5px;
+    padding: 5px;
+    display: inline-block;
+ }
+ 
+ h2 {
+    color: #000;
+ }
+ 
+ button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #4c91af;
+    color: white;
+    border: none;
+    cursor: pointer;
+ }
+ 
+ button:hover {
+    background-color: #4c91af;
+ }
+ 
