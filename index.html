@@ -13,23 +13,23 @@
 
     <!-- Aspect Ratio -->
     <div class="card" id="cardA">
-        <button onclick="toggleImage('imgA')">A</button>
+        <button id="btnA" onclick="showImage('imgA', 'btnA', 'hideA')">A</button>
         <img id="imgA" src="./imgs/AforAspect.png" alt="Image for Aspect Ratio" style="display:none;">
-        <button onclick="toggleImage('imgA')">Hide Result</button>
+        <button id="hideA" onclick="hideImage('imgA', 'btnA', 'hideA')" style="display:none;">Hide Result</button>
     </div>
 
     <!-- Border -->
     <div class="card" id="cardB">
-        <button onclick="toggleImage('imgB')">B</button>
+        <button id="btnB" onclick="showImage('imgB', 'btnB', 'hideB')">B</button>
         <img id="imgB" src="./imgs/BforBorder.png" alt="Image for Border" style="display:none;">
-        <button onclick="toggleImage('imgB')">Hide Result</button>
+        <button id="hideB" onclick="hideImage('imgB', 'btnB', 'hideB')" style="display:none;">Hide Result</button>
      </div>
 
      <!-- Colors -->
      <div class="card" id ="cardC">
-         <button onclick = "toggleImage('imgC')">C</button>
+         <button id="btnC" onclick = "showImage('imgC', 'btnC', 'hideC')">C</button>
          <img id="imgC" src="./imgs/CforColors.png" alt="Image for Colors" style="display:none;">
-         <button onclick = "toggleImage('imgC')">Hide Result</button>
+         <button id="hideC" onclick = "hideImage('imgC', 'btnC', 'hideC')" style="display:none;">Hide Result</button>
       </div> 
   </div>
   <script src = "./JS/script.js"></script> 
